@@ -3,8 +3,8 @@
 
 #include <types.h>
 
-#define STATUSES 2
-#define TEXT_ITEMS 12
+#define STATUSES 23
+#define TEXT_ITEMS 22
 
 extern const u8 *statuses[STATUSES];
 extern const u8 *headers[TEXT_ITEMS];

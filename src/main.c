@@ -1,5 +1,12 @@
 //-----------------------------LICENSE NOTICE------------------------------------
-//  This file is part of CPCtelera: An Amstrad CPC Game Engine
+// ___________                    .__  .__        __                _________
+// \_   _____/__ __   ____ _____  |  | |__|______/  |_  ____  __ __/   _____/
+//  |    __)_|  |  \_/ ___\\__  \ |  | |  \____ \   __\/  _ \|  |  \_____  \ 
+//  |        \  |  /\  \___ / __ \|  |_|  |  |_> >  | (  <_> )  |  /        \
+// /_______  /____/  \___  >____  /____/__|   __/|__|  \____/|____/_______  /
+//         \/            \/     \/        |__|                            \/ 
+//  Code and graphic Copyright (C) 2017 Manuel Sagra de Diego (@manuelsagra)
+//  This file is part of EUCALIPTOUS: an Amstrad CPC Game made with CPCTelera
 //  Copyright (C) 2015 ronaldo / Fremos / Cheesetea / ByteRealms (@FranGallegoBR)
 //
 //  This program is free software: you can redistribute it and/or modify
@@ -22,22 +29,16 @@
 #include "textos.h"
 
 #define LINE_HEIGHT 10
-#define FADE_LENGTH 200
-#define LOGO_WIDTH 32
-#define LOGO_HEIGHT 8
+#define FADE_LENGTH 128
+#define LOGO_WIDTH 16
+#define LOGO_HEIGHT 4
+#define MARGIN_TOP 20
 
-#define BLACK 0x54
-#define WHITE 0x4b
-#define GREY 0x40
-#define DARK_BLUE 0x44
-#define LIGHT_BLUE 0x55
-#define SKY_BLUE 0x57
-#define RED 0x5c
 
-const u8 palette[16] = 	{BLACK,	WHITE,	GREY,	LIGHT_BLUE};
-const u8 palfade0[16] =	{BLACK,	GREY,	DARK_BLUE,	LIGHT_BLUE};
-const u8 palfade1[16] =	{BLACK,	GREY,	BLACK,	DARK_BLUE};
-const u8 palfaded[16] =	{BLACK,	BLACK,	BLACK,	BLACK};
+const u8 palette[16] = 	{HW_BLACK,	HW_BRIGHT_WHITE,	HW_WHITE,	HW_BRIGHT_BLUE};
+const u8 palfade0[16] =	{HW_BLACK,	HW_WHITE,			HW_BLUE,	HW_BRIGHT_BLUE};
+const u8 palfade1[16] =	{HW_BLACK,	HW_WHITE,			HW_BLACK,	HW_BLUE};
+const u8 palfaded[16] =	{HW_BLACK,	HW_BLACK,			HW_BLACK,	HW_BLACK};
 
 u8 status;
  
@@ -164,8 +165,8 @@ void ec_drawLogo() {
 
 	for (j = 0; j < LOGO_HEIGHT; j++) {
 		for (i = 0; i < LOGO_WIDTH; i++) {
-			pvmem = cpct_getScreenPtr(CPCT_VMEM_START, 8 + (i << 1), 32 + (j << 3));
-			cpct_drawSprite(logo_tileset[s++], pvmem, 2, 8);
+			pvmem = cpct_getScreenPtr(CPCT_VMEM_START, 8 + (i << 2), 16 + (j << 4));
+			cpct_drawSprite(logo_tileset[s++], pvmem, 4, 16);
 		}
 	}
 }
@@ -174,7 +175,8 @@ void ec_showTitle() {
 	ec_clearScreen();
 
 	ec_drawLogo();
-	ec_drawString("Pulsa cualquier tecla", 19, 128);
+	ec_drawString("PULSA CUALQUIER TECLA", 19, 120);
+	ec_drawString("PARA EMPEZAR", 28, 130);
 	ec_drawString("Manuel Sagra de Diego - 2017", 12, 180);
 	ec_drawString("http://elblogdemanu.com/", 16, 190);
 
@@ -203,7 +205,7 @@ void ec_showScreen(u8 screen) {
 		status = 0;
 	}
 
-	ec_drawString(texts[screen - 1], 0, 24);
+	ec_drawString(texts[screen - 1], 0, MARGIN_TOP);
 
 	ec_fadeIn();
 
@@ -245,7 +247,7 @@ void main(void) {
 	// Disable firmware
 	cpct_disableFirmware();
 
-	// Clear screen and set video mode 1
+	// Set video mode 1
 	cpct_setVideoMode(1);
 
 	// Set palette and border

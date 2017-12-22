@@ -67,4 +67,4 @@ PALETTE={ 0 26 13 1 3 2 4 5 6 7 8 9 10 11 12 13 }
 ##	  hardware colour values.
 
 $(eval $(call IMG2SPRITES,img/letras.png,1,letras,8,8,$(PALETTE),tileset,src/,,-im))
-$(eval $(call IMG2SPRITES,img/logo.png,1,logo,8,8,$(PALETTE),tileset,src/,,))
+$(eval $(call IMG2SPRITES,img/logo.png,1,logo,16,16,$(PALETTE),tileset,src/,,))
