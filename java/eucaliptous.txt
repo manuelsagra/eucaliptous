@@ -1,0 +1,215 @@
+[1:EL DÍA DEL UNBOXING]
+Acabas de recibir un paquete que llevabas esperando durante varios días. Lo abres con ilusión y por fin contemplas el juego del que todo el mundo habla: "EUCALIPTOUS". 
+
+Sacas la cinta de la caja, la introduces en tu CPC y te dispones a cargar el juego.
+
+
+[] Esperas pacientemente a que cargue. >2
+[] Vas a la cocina a preparar un bocata de Nocilla. >3
+-----------------------------------------------------------------------------------------------------
+[2:ALGO EXTRAÑO OCURRE EN LA PANTALLA]
+Ves como aparece una pantalla de presentación en la que hay cosas que no te cuadran. Parece que hay más colores de los que soporta tu CPC 464 y la carga te ha parecido demasiado rápida.
+
+Aparece el menú y piensas qué hacer a continuación...
+
+
+[] Das directamente al botón del joystick para empezar. >5
+[] Redefines teclas para jugar con teclado. >4
+-----------------------------------------------------------------------------------------------------
+[3:FAN DE POKÉMON]
+Abres el bote de Nocilla que compraste con dibujos de Pokémon. Mientras piensas lo maravilloso que sería tener pareja y ser padre algún día, vas untando una generosa cantidad de Nocilla en el pan.
+
+Vuelves a la habitación y ves que el juego ya está cargado.
+
+
+[] Redefines teclas para jugar con teclado. >4
+[] Pulsas el botón del joystick para empezar. >5
+-----------------------------------------------------------------------------------------------------
+[4:ES OPQA Y LO SABES]
+A tus cuarenta y pico años ya te sientes más cómodo jugando con el teclado que usando un joystick. 
+
+El juego te pregunta qué teclas quieres usar para izquierda, derecha, arriba, abajo y disparo y no dudas en introducir la secuencia OPQA y la barra espaciadora.
+
+
+[] Pulsas la barra espaciadora para empezar. >5
+-----------------------------------------------------------------------------------------------------
+[5:COMIENZAN LOS PROBLEMAS]
+Después de que suene una enigmática melodía, comienza el juego. Sin embargo, los gráficos de la pantalla empiezan a corromperse de forma extraña y sientes como tu cuerpo empieza a ser absorbido a través del monitor del ordenador.
+
+
+[] Entras en pánico y sales corriendo de la habitación a pedir ayuda. >6
+[] Como has visto TRON doscientas veces, te dejas llevar. >7
+[] Tiras del cable de alimentación en un intento desesperado por salvarte. >6
+-----------------------------------------------------------------------------------------------------
+[6:LA CAGASTE... BURT LANCASTER]
+Te crees muy listo, pero tu cuerpo desaparece con un simpático "puf". Pareces estar un poco muerto.
+
+Todo el mundo sabe que una vez que empieza una movida de estas no hay que cruzar los rayos ni hacer nada raro. ¿Acaso eras de los que usaba el ordenador normalmente cuándo se estaba grabando un CD? ¿ESTÁS LOCO?
+
+
+[] Pues nada, otra vez a empezar... >0
+-----------------------------------------------------------------------------------------------------
+[7:¿QUÉ PASA TRON?]
+No sabes si los programadores de este juego son los primos de Satanás o si el de Correos ha metido el paquete en uranio enriquecido, pero el caso es que tu cuerpo y tu mente se han transportado a una especie de universo digital.
+
+A la izquierda ves un edificio con una forma peculiar y a tu lado hay un viejete con pinta entrañable.
+
+
+[] Te diriges al edificio. >8
+[] Hablas con el viejete. >11
+-----------------------------------------------------------------------------------------------------
+[8:NUNCANUNKA STUDIOS]
+Entras en las oficinas de lo que parece una compañía de videojuegos. Ves a un currante picando código sin parar y a un tipo muy extraño que no para de sonreír.
+
+El tipo se te acerca y te dice: "Hola amigo, soy Paco Encinas y tengo planeada una saga de juegos que LO VA A PETAR. ¿Quieres ser colaborador nuestro?"
+
+[] Sales escopetado como si no hubiese mañana. >10
+[] Ya que no tienes nada que hacer en este mundo, aceptas la oferta. >9
+-----------------------------------------------------------------------------------------------------
+[9:ESCLAVO DIGITAL]
+Paco Encinas te pasa el brazo por encima del hombro y te empieza a comer la cabeza con unos proyectos que parece que están a punto de caramelo.
+
+Cuarenta años después sigues "echando un cable" a Paco en el cuarto proyecto, sin haber terminado el primero.
+
+
+[] Como en casa no se está en ningún sitio... >0
+-----------------------------------------------------------------------------------------------------
+[10:POR LOS PELOS]
+Algo no te olía bien y le dices a Paco que luego vuelves...
+
+Regresas al lugar donde apareciste y piensas que a lo mejor es una buena idea hablar con el viejete.
+
+
+[] Vas a hablar con el viejete. >11
+-----------------------------------------------------------------------------------------------------
+[11:VIEJO ARCHIVERO]
+El viejete te mira de arriba abajo y te dice:
+
+- Tú no eres de por aquí, joven.
+
+Piensas que a lo mejor este viejete puede ayudarte...
+
+
+[] Le cuentas lo que te ha pasado. >12
+[] Le dices que eres un aventurero y que necesitas alguna pista. >13
+-----------------------------------------------------------------------------------------------------
+[12:EN LA CÁRCEL]
+Cuando le cuentas lo que te ha ocurrido te toma por un loco y empieza a llamar a la policía a gritos.
+
+Los cuerpos de seguridad te apresan y te meten en la cárcel indefinidamente por considerarte un peligro para la sociedad de este extraño mundo...
+
+
+[] Ala, a ver el logo del juego otra vez. >0
+-----------------------------------------------------------------------------------------------------
+[13:LOS CÁRPATOS]
+Le dices al viejete que eres un aventurero que se ha perdido y observas como empiezan a brillarle los ojos.
+
+- Me recuerdas a mí cuando era joven en los Cárpatos. Ve hacia ese parque y quizás encuentres tu camino...
+
+
+[] Vas hacia el parque. >14
+[] Decides buscarte la vida por ti mismo. >15
+[] A lo mejor lo del edificio no era mala idea. >8
+-----------------------------------------------------------------------------------------------------
+[14:HORA DE AVENTURAS LLEGÓ]
+En el parque ves a una chica acosada por un tipo que no parece muy normal, y de hecho te recuerda ligeramente a Gollum. 
+
+No parece muy fuerte, así que seguramente no te supondrá ningún problema conseguir que deje de molestar a la chica.
+
+[] No es tu problema. >17
+[] Ayudas a la chica sin dudarlo. >16
+[] Te acercas sigilosamente para escuchar bien lo que está diciendo. >18
+-----------------------------------------------------------------------------------------------------
+[15:BUSCÁNDOTE LA VIDA...]
+Vas dando tumbos por la ciudad en busca de algo que te ayude a volver... sin mucha suerte. Sin embargo, en unos cubos de basura oyes unos ruidos extraños al pasar cerca de ellos.
+
+
+[] Pasas de largo, ya has tenido demasiadas sorpresas por hoy. >19
+[] La curiosidad puede contigo y te acercas a los cubos de basura. >20
+-----------------------------------------------------------------------------------------------------
+[16:ERES UN HÉROE]
+Te acercas decididamente a ayudar a la chica y el hombrecillo al verte sale corriendo despavorido mientras te grita "¡sinvergüenza!". La chica te mira agradecida y te dice:
+
+- Gracias por librarme de este brasas, no sabía qué hacer para que me dejase en paz. Si quieres te invito a tomar algo...
+
+
+[] Aceptas la invitación de buena gana. >21
+[] Prefieres seguir buscándote la vida por tu cuenta. >15
+-----------------------------------------------------------------------------------------------------
+[17:COBARDE, PECADORRR]
+Aunque piensas que tampoco es para tanto y que la chica puede arreglárselas ella sola, de repente el tipo se gira, centra en ti su mirada y se acerca rápidamente.
+
+Pasan los minutos, las horas y los días y te sigue dando la murga con las bondades de su ordenador favorito y de cómo la gente lo ha ignorado durante estos años. Mueres de aburrimiento. Literalmente.
+
+
+[] Vuelve a empezar cuando tengas algo de coraje. >0
+-----------------------------------------------------------------------------------------------------
+[18:EL MILENARISMO VA A LLEGAR]
+Acercándote un poco escuchas que el tipo no es realmente un acosador, sino un brasas de cuidado:
+
+- No tienes ni idea. Mi máquina fue la más vendida. Es un complot. La gente no tiene ni idea. ¡NO TENÉIS NI IDEA!
+
+
+[] Crees que es mejor no complicarte la vida. >17
+[] Salvas a la chica de la turra. >16
+-----------------------------------------------------------------------------------------------------
+[19:GOLPE DE... ¿SUERTE?]
+El día ya ha estado demasiado movido y decides pasar de largo. Sin embargo, te descuidas, tropiezas y caes al suelo. 
+
+Al abrir los ojos, te das cuenta de que estás en tu habitación, con las teclas de tu CPC marcadas en la cara y que son las tantas de la noche. 
+
+El kilo de torreznos que te habías tomado para merendar te ha pasado factura.
+
+
+[] ¿Final feliz? >0
+-----------------------------------------------------------------------------------------------------
+[20:LA CURIOSIDAD MATÓ AL GATO...]
+Al acercarte a los cubos de basura, ves que alguien ha abandonado un gatito. Te da pena y te acercas a cogerlo, pero se te olvida que en este mundo digital las reglas no tienen que ser como en el "de verdad".
+
+El gato abre la boca y te engulle como si fueses un canario. Mala suerte, vaquero.
+
+
+[] Maldita sea, si yo odiaba a los gatos... >0
+-----------------------------------------------------------------------------------------------------
+[21:SIEMPRE TIENEN QUE DECIRLO]
+La chica te lleva a un bar cercano y tomáis unas cervezas. Eso sí, lo malo es que en este mundo sólo tienen San Miguel.
+
+Para colmo, pasado un rato, te suelta LA BOMBA:
+
+- ¿Sabes qué? Soy vegana.
+
+
+[] Te disculpas para ir al baño y te escapas del bar. >15
+[] No te importa y sigues adelante con la conversación. >22
+-----------------------------------------------------------------------------------------------------
+[22:SOY VEGANO]
+Una cosa lleva a la otra, y al final te casas con la chica en este mundo extraño que te ha tocado vivir. 
+
+Se acabaron los videojuegos retro, los torreznos, sólo bebes San Miguel y os guiais por el Método Ogino, pero los ocho hijos que habéis tenido (y el que está en camino) lo compensan con creces.
+
+
+[] ¿Hace otra partidita? >0
+-----------------------------------------------------------------------------------------------------
+Elige... sabiamente
+O elige lo que sea, pero elige algo
+También puedes no elegir
+Pero esto sería bastante aburrido
+Aunque a lo mejor a ti te gusta eso
+Oye, que yo lo entiendo, ¿eh?
+Si lees esto es que te aburres mazo
+A lo mejor piensas que daré pistas
+A ver si realmente lees esto...
+¡Caca, culo, pedo, pis!
+Eso no te lo esperabas, ¡eh pillín!
+Bueno, creo que te tengo que dejar
+Que me ha entrado un apretón
+Bufff, creo que no voy a llegar...
+Falsa alarma, al final me dio tiempo
+Eso sí, no vayas al baño en un rato
+Si lees esto eres un poco cansino
+A lo mejor te crees muy gracioso
+Eso o es que te aburres DE VERDAD
+Que el juego este es cortito leñe
+Deja de dar vueltecitas y acaba YA
+Te prometo que cuelgo el CPC, ¿eh?
+Pues ala, vuelvo a empezar...

@@ -1,0 +1,50 @@
+ ___________                    .__  .__        __                _________
+ \_   _____/__ __   ____ _____  |  | |__|______/  |_  ____  __ __/   _____/
+  |    __)_|  |  \_/ ___\\__  \ |  | |  \____ \   __\/  _ \|  |  \_____  \ 
+  |        \  |  /\  \___ / __ \|  |_|  |  |_> >  | (  <_> )  |  /        \
+ /_______  /____/  \___  >____  /____/__|   __/|__|  \____/|____/_______  /
+         \/            \/     \/        |__|                            \/ 
+
+EucaliptouS: Elige tu propia aventura
+
+Por Manuel Sagra de Diego (@manuelsagra) 2017
+
+
+Argumento
+---------
+
+Es el año 20XX y sigues siendo un amante de tu Amstrad CPC. En las páginas de
+la escena llevan meses comentando las bondades de un desarrollo que tiene una
+pinta tremenda: "EUCALIPTOUS".
+
+Consigues hacerte con una de las pocas copias físicas que salen a la venta y
+por fin llega el paquete a tu casa. Sin embargo, cuando cargas el juego en tu
+ordenador, el juego va más allá de lo que nunca hubieses imaginado.
+
+Te esperan dos finales, varias muertes y muchas decisiones... bueno, quizás
+no tantas.
+
+
+Controles
+---------
+
+En este juego no puedes usar la clásica combinación de teclas OPQA, pero el 
+sistema de control es realmente sencillo. Puedes pulsar cualquier tecla para
+empezar, y luego deberás elegir la siguiente acción pulsando los números que
+aparecen en pantalla (del 1 al 3).
+
+
+Carga
+-----
+Si usas el fichero de disco, ejecuta RUN"JUEGO.BAS
+
+Con la cinta, simplemente tienes que ejecutar RUN"
+
+
+Agradecimientos
+---------------
+
+A Radastán (@Bytemaniacos) por organizar concursos como este desde hace años.
+A Fran Gallego (@FranGallegoBR) por su paciencia... y su sapiencia :)
+A Fede Álvarez (@falvarez) por su ojo biónico detector de pifias.
+A toda la gente que mantiene viva la retroescena en general.
